@@ -97,4 +97,13 @@ public class MainActivity extends AppCompatActivity {
         TextView aux =(TextView)findViewById(R.id.textView);
         aux.setText(valor);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(handler!=null)
+        {
+            handler.removeCallbacksAndMessages(null);
+        }
+    }
 }
