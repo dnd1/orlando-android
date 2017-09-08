@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PruebaOrlando</string>
+    <string name="cargando">cargando ...</string>
+    <string name="actualiza">actualiza</string>
+</resources>
