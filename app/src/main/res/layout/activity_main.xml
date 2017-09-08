@@ -36,5 +36,6 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:background="@android:color/holo_orange_dark" />
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="boton" />
 </RelativeLayout>
